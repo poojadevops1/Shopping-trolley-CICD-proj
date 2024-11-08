@@ -30,7 +30,7 @@ pipeline {
         stage('Docker Build & Push') {
             steps {
                 script{
-                    withDockerRegistry(credentialsId: '2fe19d8a-3d12-4b82-ba20-9d22e6bf1672', toolName: 'docker') {
+                    withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
                         
                         sh "docker build -t shopping-trolley -f docker/Dockerfile ."
                         sh "docker tag  shopping-trolley poojadevops1012/shopping-trolley:1.0.1"
