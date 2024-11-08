@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.reljicdcart</groupId>
-    <artifactId>shoppingcart-application</artifactId>
+    <artifactId>shopping-trolley</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
